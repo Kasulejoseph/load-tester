@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "load-tester"
+version = "0.1.0"
+description = ""
+authors = ["Kasulejoseph <kasule06joseph@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
